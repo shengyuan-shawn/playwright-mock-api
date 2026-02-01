@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-01T05:17:14.040Z",
+  "testName": "step-4-verify-updated-data-by-get-request",
+  "method": "GET",
+  "endpoint": "/posts/1",
+  "requestData": null,
+  "responseData": {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  "status": 200
+}

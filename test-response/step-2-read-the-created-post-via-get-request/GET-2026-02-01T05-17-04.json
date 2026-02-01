@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-01T05:17:04.471Z",
+  "testName": "step-2-read-the-created-post-via-get-request",
+  "method": "GET",
+  "endpoint": "/posts/101",
+  "requestData": null,
+  "responseData": {},
+  "status": 404
+}

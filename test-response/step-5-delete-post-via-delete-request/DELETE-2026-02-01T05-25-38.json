@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-01T05:25:38.671Z",
+  "testName": "step-5-delete-post-via-delete-request",
+  "method": "DELETE",
+  "endpoint": "/posts/1",
+  "requestData": null,
+  "responseData": {},
+  "status": 200
+}

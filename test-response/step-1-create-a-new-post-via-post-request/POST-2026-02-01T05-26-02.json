@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-02-01T05:26:02.663Z",
+  "testName": "step-1-create-a-new-post-via-post-request",
+  "method": "POST",
+  "endpoint": "/posts",
+  "requestData": {
+    "userId": 101,
+    "title": "My New Post",
+    "body": "This is the content of my new post created via API"
+  },
+  "responseData": {
+    "userId": 101,
+    "title": "My New Post",
+    "body": "This is the content of my new post created via API",
+    "id": 101
+  },
+  "status": 201
+}

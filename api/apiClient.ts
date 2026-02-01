@@ -16,7 +16,7 @@ export class APIClient {
 
     this.baseURL = baseURL;
     this.request = request;
-    this.testDataDir = path.join(__dirname, "../test-data");
+    this.testDataDir = path.join(__dirname, "../test-response");
     if (testName) {
       this.testName = testName;
     }
@@ -151,7 +151,7 @@ export class APIClient {
       statusCode,
     ).catch((err) => console.warn("Logging failed:", err));
 
-    return { statusCode, data: responseBody };
+    return { ok: response.ok(), statusCode, data: responseBody };
   }
 
   // GET METHOD
@@ -180,7 +180,7 @@ export class APIClient {
       statusCode,
     ).catch((err) => console.warn("Logging failed:", err));
 
-    return { statusCode, data: responseBody };
+    return { ok: response.ok(), statusCode, data: responseBody };
   }
 
   // PATCH METHOD
@@ -214,7 +214,7 @@ export class APIClient {
       statusCode,
     ).catch((err) => console.warn("Logging failed:", err));
 
-    return { statusCode, data: responseBody };
+    return { ok: response.ok(), statusCode, data: responseBody };
   }
 
   // DELETE METHOD
@@ -245,7 +245,7 @@ export class APIClient {
       statusCode,
     ).catch((err) => console.warn("Logging failed:", err));
 
-    return { statusCode, data: responseBody };
+    return { ok: response.ok(), statusCode, data: responseBody };
   }
 
   // VERIFY RESPONSE
