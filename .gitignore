@@ -7,5 +7,17 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
+# Env
 .env
-/test-data
+
+# Screenshots / Results
+/test-response/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,5 +1,5 @@
 import { test as base, expect } from "@playwright/test";
-import { APIClient } from "../api/apiClient";
+import { APIClient } from "../api/api_client";
 
 export type APIFixtures = {
   api: APIClient;
